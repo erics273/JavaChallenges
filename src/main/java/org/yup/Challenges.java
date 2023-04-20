@@ -201,9 +201,65 @@ public class Challenges {
 
       }
 
-      //convertToLowercase - work like convertToUppercase and return some text that show us the word is converted
+      public void countToTen(){
+
+//        for(int i = 1; i <= 10; i++){
+//            //run some code
+//            System.out.println(i);
+//        }
 
 
-      //lengthOfWord - return something that lets us know how long the word provided was/is
+          int i = 1;
+          while(i <= 10){
+              System.out.println(i);
+              i++;
+          }
+
+      }
+
+      //make a method that counts from 10 to 1
+      public void countFromTen(){
+
+        for(int i=10; i >= 1; i--){
+            System.out.println(i);
+        }
+
+      }
+
+      //make a method that counts from 1 - 100 but in increments of 2
+      public void zeroToHundred(){
+
+
+        for(int i = 1; i <= 100; i+=2){
+
+            System.out.println(i);
+
+        }
+
+      }
+
+      //make a method that counts from 0 - 50 but only prints even numbers
+      public void zeroToFiftyEven(){
+
+//        int i = 0;
+//        while(i <= 50){
+//
+//            //hey code, is i even
+//            if(i % 2 != 0){
+//                System.out.println(i);
+//            }
+//
+//            i++;
+//        }
+
+          for(int i=0; i <= 50; i++){
+
+              if(i % 2 != 0){
+                System.out.println(i);
+              }
+
+          }
+
+      }
 
 }

@@ -41,7 +41,14 @@ public class JavaChallengesApp {
 
 //                    System.out.println(challenges.findTheBiggestNumber());
 
-        System.out.println(challenges.convertToUppercase());
+//        System.out.println(challenges.convertToUppercase());
+
+//            challenges.countToTen();
+
+//              challenges.zeroToHundred();
+//              challenges.zeroToFiftyEven();
+
+
 
     }
 
